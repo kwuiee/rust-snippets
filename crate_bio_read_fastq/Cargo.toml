@@ -1,0 +1,11 @@
+[package]
+name = "crate_bio_read_fastq"
+version = "0.1.0"
+authors = ["_fy <liuxiaochuan@novogene.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+flate2 = { version = "1.0.13", features = ["rust_backend"], default-features = false }
+bio = "0.29.0"

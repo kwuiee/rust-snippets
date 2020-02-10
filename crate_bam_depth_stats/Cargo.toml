@@ -1,0 +1,11 @@
+[package]
+name = "crate_bam_depth_stats"
+version = "0.1.0"
+authors = ["_fy <liuxiaochuan@novogene.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bam = {path = "/TJPROJ4/BioAI/liuxiaochuan/langs/Projects/bam-v0.0.14"}
+csv = "*"

@@ -1,0 +1,12 @@
+[package]
+name = "crate_lettre_send_email"
+version = "0.1.0"
+authors = ["_fy <liuxiaochuan@novogene.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lettre = "0.9"
+lettre_email = "0.9"
+mime = "0.3.13"
