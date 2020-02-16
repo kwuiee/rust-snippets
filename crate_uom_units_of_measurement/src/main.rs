@@ -9,7 +9,6 @@ fn main() {
     let time = Time::new::<second>(15.0);
     let velocity/*: Velocity*/ = length / time;
     let acceleration = calc_acceleration(velocity, time);
-    println!("{}", acceleration);
     //let error = length + time; // error[E0308]: mismatched types
 }
 
