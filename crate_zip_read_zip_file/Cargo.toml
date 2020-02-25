@@ -1,10 +1,10 @@
 [package]
-name = "crate_bio_read_bed"
+name = "crate_zip_read_zip_file"
 version = "0.1.0"
-authors = ["_fy <liuxiaochuan@novogene.com>"]
+authors = ["Sean Lyo <137232774@qq.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bio = "*"
+zip = "*"
