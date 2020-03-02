@@ -1,0 +1,11 @@
+[package]
+name = "crate_serde-cbor_type-based_serialization"
+version = "0.1.0"
+authors = ["Sean Lyo <137232774@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_cbor = "0.10"
+serde = { version = "1.0.104", features = ["derive"] }
