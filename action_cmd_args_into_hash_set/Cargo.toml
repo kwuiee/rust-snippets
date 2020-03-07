@@ -1,0 +1,6 @@
+[package]
+name = "cmd_args_into_hash_set"
+version = "0.1.0"
+authors = ["_fy <liuxiaochuan@novogene.com>"]
+
+[dependencies]
