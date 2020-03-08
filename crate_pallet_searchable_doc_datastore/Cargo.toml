@@ -1,0 +1,13 @@
+[package]
+name = "crate_pallet_searchable_doc_datastore"
+version = "0.1.0"
+authors = ["Sean Lyo <137232774@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+pallet = "*"
+sled = "*"
+tempfile = "*"
