@@ -1,0 +1,11 @@
+[package]
+name = "crate_rusqlite_using_sqlite"
+version = "0.1.0"
+authors = ["Sean Lyo <137232774@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusqlite = "*"
+time = "0.1.42"
