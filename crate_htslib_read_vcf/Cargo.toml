@@ -1,0 +1,17 @@
+[package]
+name = "vcf_valid"
+version = "0.1.0"
+authors = ["Sean Lyo <137232774@qq.com>"]
+edition = "2018"
+description = "A program to validate vcf using rust-htslib"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-htslib = "=0.27.0"
+jemallocator = "0.3.2"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
