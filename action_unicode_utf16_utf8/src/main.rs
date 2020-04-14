@@ -5,8 +5,9 @@ fn main() {
     // alpha
     let s = "\u{03B1}";
     println!("{}", s);
-    // face palm
+    // thumb up
     let s = "\u{01F44D}";
     println!("{}", s);
+    // face palm
     println!("utf16 len: {}", "\u{01F926}".len());
 }
