@@ -1,8 +1,9 @@
 use std::collections::HashMap;
 
-///
-/// updated will always be `true`
-///
+//!
+//! [ref](https://doc.rust-lang.org/reference/const_eval.html)
+//! updated will always be `true`
+//!
 fn main() {
     let mut map = HashMap::new();
     map.insert("key", 2);
