@@ -1,0 +1,11 @@
+[package]
+name = "crate_ncurses-rs_tui_library_examples"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "https://github.com/jeaye/ncurses-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ncurses = "*"
