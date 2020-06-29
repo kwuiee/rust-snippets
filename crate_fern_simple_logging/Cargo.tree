@@ -1,0 +1,15 @@
+crate_fern_simple_logging v0.1.0 (/biocluster/data/biobk/user_test/liuxiaochuan/langs/Repos/rust-snippets/crate_fern_simple_logging)
+├── chrono v0.4.11
+│   ├── num-integer v0.1.43
+│   │   └── num-traits v0.2.12
+│   │       [build-dependencies]
+│   │       └── autocfg v1.0.0
+│   │   [build-dependencies]
+│   │   └── autocfg v1.0.0
+│   ├── num-traits v0.2.12 (*)
+│   └── time v0.1.43
+│       └── libc v0.2.71
+├── fern v0.6.0
+│   └── log v0.4.8
+│       └── cfg-if v0.1.10
+└── log v0.4.8 (*)
