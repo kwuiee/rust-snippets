@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		{# title filter #}
+		<title>{{name| title}}</title>
+	</head>
+	<body>
+		<ul>
+			{# revered list for-loop #}
+			{% for i in numbers | reverse %}
+			<il>{{loop.index}}: {{i}}</il>
+			{% endfor %}
+		</ul>
+		{# if condition #}
+		{% if num < 5 %}
+		<p style="font-weight: 600; backgroud-color: green;">Mother said take care</p>
+		{% elif num >= 5 and num < 10 %}
+		<p style="font-weight: 600; backgroud-color: green;">Dad said go fighting</p>
+		{% else %}
+		<p style="font-weight: 600; backgroud-color: green;">Sister said go fighting</p>
+		{% endif %}
+		<table>
+			<tr><th>User<th>Age<th><th>From</th></tr>
+			{# struct interpolation #}
+			<tr><td>{{user.name}}</td><td>{{user.age}}</td><td>{{user.from}}</td></tr>
+		</table>
+		{# starting_with test #}
+		{% if user.name is starting_with("S") %}
+		<p>name starts with a 'S'</p>
+		{% endif %}
+	</body>
+</html>
