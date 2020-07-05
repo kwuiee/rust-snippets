@@ -1,0 +1,3 @@
+[submodule "action_rust-timsort"]
+	path = action_rust-timsort
+	url = git@github.com:notriddle/rust-timsort.git
