@@ -1,0 +1,11 @@
+[package]
+name = "crate_wickdb_key-value_storage"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "wickdb: lsm-tree based key-value database"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.wickdb]
+git = "https://github.com/Fullstop000/wickdb"
