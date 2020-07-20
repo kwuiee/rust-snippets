@@ -112,7 +112,6 @@ version = "0.1.0"
 dependencies = [
  "lettre",
  "lettre_email",
- "mime",
 ]
 
 [[package]]
