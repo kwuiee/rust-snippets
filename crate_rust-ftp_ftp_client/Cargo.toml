@@ -1,0 +1,11 @@
+[package]
+name = "crate_rust-ftp_ftp_client"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "https://mp.weixin.qq.com/s?__biz=MzI1MjAzNDI1MA==&mid=2648211652&idx=1&sn=6570fa480b3c976b8c3af00d7fc45b34&chksm=f1c5cd61c6b2447704d3f8246492448a7d04656a36289c89d0b3713c5f256ee4be5d74305524&xtrack=1&scene=90&subscene=93&sessionid=1596862984&clicktime=1596863257&enterid=1596863257&ascene=56&devicetype=android-26&version=27001137&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AZE%2FbvcwPdCirFAaevUcUEY%3D&pass_ticket=3v7pckJGHYgHkFImqt7ju%2BDT9btSqpw%2Behr5IexvWkKaV12o3mqrHYTwNb%2FTqcgn&wx_header=1"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ftp = "3.0.1"
