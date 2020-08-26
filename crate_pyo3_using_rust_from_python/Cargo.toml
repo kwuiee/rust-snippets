@@ -1,13 +1,13 @@
 [package]
-name = "string-sum"
+name = "rust2py"
 authors = ["_fy <liuxiaochuan@novogene.com>"]
 version = "0.1.0"
 edition = "2018"
 
 [lib]
-name = "string_sum"
+name = "rust2py"
 crate-type = ["cdylib"]
 
 [dependencies.pyo3]
-version = "0.8.3"
+version = "^0.11.1"
 features = ["extension-module"]
