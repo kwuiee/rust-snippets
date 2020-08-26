@@ -1,0 +1,11 @@
+[package]
+name = "crate_ryu_quickly_convert_float_to_decimal_string"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "https://github.com/dtolnay/ryu"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ryu = "^1"
