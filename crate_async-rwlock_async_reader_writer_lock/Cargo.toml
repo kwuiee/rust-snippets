@@ -1,0 +1,11 @@
+[package]
+name = "crate_async-rwlock_async_reader_writer_lock"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-rwlock = "^1"
+async-std = { version = "*", features=["attributes"]}
