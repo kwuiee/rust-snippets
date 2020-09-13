@@ -1,0 +1,15 @@
+[package]
+name = "crate_kube_create_k8s_job"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kube = "^0.42"
+k8s-openapi = {version = "^0.9", features = ["v1_16"]}
+futures = "^0.3"
+serde_json = "^1.0.57"
+tokio = {version = "^0.2", features = ["macros"]}
+uuid = { version = "^0.8", features = ["serde", "v4"] }
