@@ -1,0 +1,11 @@
+[package]
+name = "crate_event-listener_notify_async_tasks_or_threads"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "https://docs.rs/event-listener/2.5.1/event_listener/index.html"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+event-listener = "^2.5.1"
