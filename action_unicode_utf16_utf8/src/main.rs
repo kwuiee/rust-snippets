@@ -10,4 +10,11 @@ fn main() {
     println!("{}", s);
     // face palm
     println!("utf16 len: {}", "\u{01F926}".len());
+    // cross: x
+    println!("{}", "\u{2717}");
+    println!("{}", "\u{2612}");
+    // tick: v
+    println!("{}", "\u{2713}");
+    println!("{}", "\u{2714}");
+    println!("{}", "\u{2611}");
 }
