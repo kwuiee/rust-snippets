@@ -1,0 +1,11 @@
+[package]
+name = "crate_polodb_embedded_json-based_db"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+polodb_core = "0.3.1"
+polodb_bson = "0.2.0"
