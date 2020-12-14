@@ -1,0 +1,10 @@
+[package]
+name = "crate_once-cell_global_value"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+once_cell = "^1.5.2"
