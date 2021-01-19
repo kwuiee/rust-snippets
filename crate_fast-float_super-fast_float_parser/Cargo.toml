@@ -1,0 +1,11 @@
+[package]
+name = "fast-float"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "https://github.com/aldanor/fast-float-rust"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fast-float = "0.2"
