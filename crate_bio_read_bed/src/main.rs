@@ -1,7 +1,10 @@
-extern crate bio;
+extern crate bio_types;
+#[macro_use]
+extern crate serde;
 
-use bio::io::bed;
 use std::error::Error;
+
+mod bed;
 
 fn main() -> Result<(), Box<dyn Error>> {
     let example = b"1\t5\t5000\n2\t45\t2342342\n";
