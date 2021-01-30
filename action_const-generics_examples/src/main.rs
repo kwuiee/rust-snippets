@@ -1,4 +1,5 @@
 // Examples where const generic parameters can be used.
+// url: https://doc.rust-lang.org/nightly/reference/items/generics.html#const-generics
 
 // Used in the signature of the item itself.
 fn foo<const N: usize>(arr: [i32; N]) {
