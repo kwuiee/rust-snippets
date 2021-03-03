@@ -1,0 +1,14 @@
+[package]
+name = "action_convert_image_to_ascii"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "Code from https://github.com/ZhangHanDong/2021soaring"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.38"
+clap = "2.33.3"
+image = "0.23.13"
+thiserror = "1.0.23"
