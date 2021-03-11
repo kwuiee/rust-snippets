@@ -3,7 +3,7 @@ use std::net::{TcpStream, ToSocketAddrs};
 use rayon::prelude::*;
 
 fn main() {
-    let mut addrs = "rust-lang.org:0".to_socket_addrs().unwrap();
+    let mut addrs = "www.baidu.com:0".to_socket_addrs().unwrap();
     let base_addr = addrs.next().unwrap();
     (0..=65535_u16).into_par_iter().for_each(|i| {
         let mut addr = base_addr.clone();

@@ -1,5 +1,5 @@
 [package]
-name = "crate_rayon_scan_port"
+name = "scan-port"
 version = "0.1.0"
 authors = ["slyo <sean.lyo@outlook.com>"]
 edition = "2018"
