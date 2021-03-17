@@ -1,12 +1,10 @@
 [package]
-name = "derive_attr"
+name = "attribute-macro"
 version = "0.1.0"
-authors = ["_fy <liuxiaochuan@novogene.com>"]
+authors = ["slyo <sean.lyo@outlook.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
 
 [lib]
 proc-macro = true

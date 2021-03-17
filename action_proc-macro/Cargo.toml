@@ -1,0 +1,13 @@
+[package]
+name = "action_proc-macro"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+description = "Examples of proc-macro, see more https://doc.rust-lang.org/stable/book/ch19-06-macros.html#procedural-macros-for-generating-code-from-attributes"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+derive-macro = {path = "derive-macro"}
+attribute-macro = {path = "attribute-macro"}
+function-macro = {path = "function-macro"}
