@@ -1,5 +1,5 @@
 [package]
-name = "macro_use"
+name = "filled-hashmap-init"
 version = "0.1.0"
 authors = ["_fy <liuxiaochuan@novogene.com>"]
 edition = "2018"
