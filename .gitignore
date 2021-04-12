@@ -1,2 +1,5 @@
 target/
 test-data/
+*.swp
+*.swo
+*.bak

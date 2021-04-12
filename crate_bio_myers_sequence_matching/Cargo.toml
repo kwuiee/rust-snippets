@@ -1,0 +1,10 @@
+[package]
+name = "myers-pm"
+version = "0.1.0"
+authors = ["slyo <sean.lyo@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bio = "^0.33.0"
