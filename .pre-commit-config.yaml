@@ -1,0 +1,9 @@
+repos:
+- hooks:
+  - args: [--markdown-linebreak-ext=md]
+    files: ''
+    id: trailing-whitespace
+  - id: check-case-conflict
+  - id: end-of-file-fixer
+  repo: git@github.com:pre-commit/pre-commit-hooks.git
+  rev: v3.2.0
