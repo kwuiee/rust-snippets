@@ -52,6 +52,8 @@ fn main() {
     });
     handle.join().unwrap();
     // 观察config1 是否变化
+    let config3 = single_config();
     println!("{:?}", config1);
     println!("{:?}", config2);
+    println!("{:?}", config3);
 }
