@@ -1,0 +1,10 @@
+[package]
+name = "crate_simdutf8_utf8_validation"
+version = "0.1.0"
+edition = "2018"
+description = "https://github.com/rusticstuff/simdutf8"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+simdutf8 = { version = "0.1.3" }
