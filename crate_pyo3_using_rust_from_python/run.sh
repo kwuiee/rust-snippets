@@ -2,5 +2,6 @@ set -e
 
 cargo build --release
 cd target/release
-python -c 'import string_sum; print(string_sum.sum_as_string(1, 2))'
+mv libstring_sum.so string_sum.so
+python -c 'import string_sum; print(string_sum.sum_as_string(1, 2)); print(string_sum.return_map())'
 cd ../../

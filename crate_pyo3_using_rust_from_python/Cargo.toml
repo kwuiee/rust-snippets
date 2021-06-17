@@ -12,6 +12,11 @@ name = "string_sum"
 # crate-type = ["cdylib", "rlib"]
 crate-type = ["cdylib"]
 
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+
 [dependencies.pyo3]
 version = "0.13.2"
 features = ["extension-module"]
