@@ -2,7 +2,7 @@
 
 ## Meta
 
-Sean Lyo – [@kwuiee](https://github.com/kwuiee) – 137232774@qq.com
+Sean Lyo – [@kwuiee](https://github.com/kwuiee) – 13sean.lyo@outlook.com
 
 ## Contributing
 
