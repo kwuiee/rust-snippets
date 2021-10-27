@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "include_str"
+name = "hashmap_with_custom_key"
 version = "0.1.0"
