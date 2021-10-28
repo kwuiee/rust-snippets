@@ -2,7 +2,7 @@
 name = "sid"
 version = "0.1.0"
 authors = ["slyo <sean.lyo@outlook.com>"]
-edition = "2018"
+edition = "2021"
 description = "Insert size(template length) consensus with little memory."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

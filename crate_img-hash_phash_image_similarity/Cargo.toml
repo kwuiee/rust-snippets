@@ -2,7 +2,7 @@
 name = "crate_img-hash_rust_phash"
 version = "0.1.0"
 authors = ["slyo <sean.lyo@outlook.com>"]
-edition = "2018"
+edition = "2021"
 description = "https://mp.weixin.qq.com/s?__biz=MzI1MjAzNDI1MA==&mid=2648211801&idx=1&sn=ed416963d44f6d1b34cb18df58940c5c&chksm=f1c5ccfcc6b245ea6728a9d0dcbc3b73c656e7e9d172807f6f16f9f7a9282681788e69371ecc&xtrack=1&scene=90&subscene=93&sessionid=1598627714&clicktime=1598627960&enterid=1598627960&ascene=56&devicetype=android-26&version=2700113f&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AWZXvBQQUNIwW48L23hW8%2Bs%3D&pass_ticket=7Z8WMOKeHZVpAt%2Bh3YABAvoS7ITBSEQNJRD0ll4NuuTa3woNlQI%2BfFLEv2JaEQof&wx_header=1"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

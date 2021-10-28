@@ -2,7 +2,7 @@
 name = "crate_unicode-width_display_width_of_char_or_str"
 version = "0.1.0"
 authors = ["liuxiaochuan <137232774@qq.com>"]
-edition = "2018"
+edition = "2021"
 discription = "display width according to http://www.unicode.org/reports/tr11/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

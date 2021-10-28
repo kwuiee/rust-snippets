@@ -2,7 +2,7 @@
 name = "call_rust_in_python"
 version = "0.1.0"
 authors = ["_fy <liuxiaochuan@novogene.com>"]
-edition = "2018"
+edition = "2021"
 refurl = "https://michaeljung.dev/2017/10/21/how-to-call-rust-code-from-within-python/"
 
 [lib]

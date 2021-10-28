@@ -2,7 +2,7 @@
 name = "crate_infer_infer_file_mime_type"
 version = "0.1.0"
 authors = ["Sean Lyo <137232774@qq.com>"]
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

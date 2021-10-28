@@ -2,7 +2,7 @@
 name = "action_async_server_client"
 version = "0.1.0"
 authors = ["slyo <sean.lyo@outlook.com>"]
-edition = "2018"
+edition = "2021"
 description = "http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

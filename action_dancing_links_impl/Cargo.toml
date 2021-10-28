@@ -2,7 +2,7 @@
 name = "action_dancing_links_impl"
 version = "0.1.0"
 authors = ["slyo <sean.lyo@outlook.com>"]
-edition = "2018"
+edition = "2021"
 description = "Dancing links impl by https://ferrous-systems.com/blog/dlx-in-rust/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
