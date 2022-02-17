@@ -1,0 +1,9 @@
+[package]
+name = "crate_seq-macro_repeat_code"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+seq-macro = "^0.3"
