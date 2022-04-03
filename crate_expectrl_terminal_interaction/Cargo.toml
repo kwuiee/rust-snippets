@@ -1,5 +1,5 @@
 [package]
-name = "crate_expectrl_terminal_iteraction"
+name = "crate_expectrl_terminal_interaction"
 version = "0.1.0"
 edition = "2021"
 
