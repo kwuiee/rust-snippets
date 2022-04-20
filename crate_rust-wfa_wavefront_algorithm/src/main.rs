@@ -1,3 +1,4 @@
+// !!! Up to 28G memory
 // rust_wfa
 use lib::{
     alignment_lib::AlignResult, alignment_lib::Penalties, wavefront_alignment::wavefront_align,
